@@ -1,0 +1,11 @@
+benchmark:
+  100: 'tmp = {}; i = 0; while i < 100; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  200: 'tmp = {}; i = 0; while i < 200; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  300: 'tmp = {}; i = 0; while i < 300; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  400: 'tmp = {}; i = 0; while i < 400; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  500: 'tmp = {}; i = 0; while i < 500; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  600: 'tmp = {}; i = 0; while i < 600; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  700: 'tmp = {}; i = 0; while i < 700; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  800: 'tmp = {}; i = 0; while i < 800; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  900: 'tmp = {}; i = 0; while i < 900; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
+  1_000: 'tmp = {}; i = 0; while i < 1000; i += 1; tmp[i.to_s] = i; tmp[i.to_s]; end;'
