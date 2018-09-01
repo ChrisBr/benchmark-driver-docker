@@ -6,4 +6,4 @@ services:
       context: .
     volumes:
       - .:/home/benchmark/driver
-    command: /bin/bash -c "source ~/.bash_profile && benchmark-driver.ruby2.4 example_10000.yml -o gruff --rbenv 'jruby-9.2.1.0-dev;jruby-9.2.0.0;system'"
+    command: ./entrypoint.sh

@@ -1,0 +1,388 @@
+---
+type: recorded
+job_warmup_context_result:
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '1'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: &1 !ruby/struct:BenchmarkDriver::Config::Executable
+          name: bin/jruby
+          command:
+          - "/home/cbruckmayer/Projects/jruby/bin/jruby"
+          cache: {}
+        gems: &2 {}
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          ? &3 !ruby/struct:BenchmarkDriver::Metric
+            name: Iteration per second
+            unit: i/s
+            larger_better: true
+            worse_word: slower
+          : 4962273.853072124
+        duration: 1.007365
+        loop_count: 4998821
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 7558545.619114963
+        duration: 1.9695351129921619
+        loop_count: 14886821
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: &4 !ruby/struct:BenchmarkDriver::Config::Executable
+          name: jruby-9.2.0.0
+          command:
+          - "/home/cbruckmayer/.rbenv/versions/jruby-9.2.0.0/bin/ruby"
+          cache: {}
+        gems: &5 {}
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 7357374.724813276
+        duration: 2.0233876289858017
+        loop_count: 14886821
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '2'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 2797998.730523146
+        duration: 1.003563
+        loop_count: 2807968
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 4190845.974340548
+        duration: 2.0029359349864535
+        loop_count: 8393996
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 3341597.5198386926
+        duration: 2.511970980995102
+        loop_count: 8393996
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '3'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1889144.0075784093
+        duration: 1.0112940000000001
+        loop_count: 1910480
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 2700008.834172758
+        duration: 2.0990420210000593
+        loop_count: 5667432
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 2276042.0391059937
+        duration: 2.490038365998771
+        loop_count: 5667432
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '4'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1466942.490690939
+        duration: 1.0151400000000002
+        loop_count: 1489152
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 2077916.313596901
+        duration: 2.1179038689879235
+        loop_count: 4400827
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1833626.2221553396
+        duration: 2.4000676620053127
+        loop_count: 4400827
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '5'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1296635.6044543919
+        duration: 1.0168840000000001
+        loop_count: 1318528
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1589756.5162458352
+        duration: 2.446856458991533
+        loop_count: 3889906
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1296136.3178308401
+        duration: 3.0011550069903024
+        loop_count: 3889906
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '6'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 995338.1818909375
+        duration: 0.99961
+        loop_count: 994950
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1405699.140930215
+        duration: 2.124219836987322
+        loop_count: 2986014
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1198333.1849438192
+        duration: 2.491806150006596
+        loop_count: 2986014
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '7'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 883190.7599467919
+        duration: 1.017137
+        loop_count: 898326
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1120029.6783999775
+        duration: 2.3656265999889
+        loop_count: 2649572
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1157955.261424994
+        duration: 2.288147123006638
+        loop_count: 2649572
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '8'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 774843.9740960288
+        duration: 1.0214649999999998
+        loop_count: 791476
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 1052674.7483873263
+        duration: 2.208213889010949
+        loop_count: 2324531
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 941562.0027015877
+        duration: 2.4688028970267624
+        loop_count: 2324531
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '9'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 569268.2480657055
+        duration: 1.016779
+        loop_count: 578820
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 762905.0679477202
+        duration: 2.2385537490190472
+        loop_count: 1707804
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 837743.5705981418
+        duration: 2.0385760749923065
+        loop_count: 1707804
+        environment: {}
+  ? !ruby/struct:BenchmarkDriver::Job
+    name: '10'
+  : true:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 571036.5287265818
+        duration: 1.038881
+        loop_count: 593239
+        environment: {}
+    false:
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: bin/jruby
+        executable: *1
+        gems: *2
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 697658.1976777303
+        duration: 2.4555133240064606
+        loop_count: 1713109
+        environment: {}
+      ? !ruby/struct:BenchmarkDriver::Context
+        name: jruby-9.2.0.0
+        executable: *4
+        gems: *5
+        prelude: ''
+      : !ruby/struct:BenchmarkDriver::Result
+        values:
+          *3: 727071.5881506196
+        duration: 2.3561765140038915
+        loop_count: 1713109
+        environment: {}
+metrics:
+- *3
