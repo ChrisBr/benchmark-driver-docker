@@ -1,0 +1,11 @@
+benchmark:
+  1: 'tmp = {}; i = 0; while i < 1; tmp[i.to_s] = i; i += 1; end;'
+  2: 'tmp = {}; i = 0; while i < 2; tmp[i.to_s] = i; i += 1; end;'
+  3: 'tmp = {}; i = 0; while i < 3; tmp[i.to_s] = i; i += 1; end;'
+  4: 'tmp = {}; i = 0; while i < 4; tmp[i.to_s] = i; i += 1; end;'
+  5: 'tmp = {}; i = 0; while i < 5; tmp[i.to_s] = i; i += 1; end;'
+  6: 'tmp = {}; i = 0; while i < 6; tmp[i.to_s] = i; i += 1; end;'
+  7: 'tmp = {}; i = 0; while i < 7; tmp[i.to_s] = i; i += 1; end;'
+  8: 'tmp = {}; i = 0; while i < 8; tmp[i.to_s] = i; i += 1; end;'
+  9: 'tmp = {}; i = 0; while i < 9; tmp[i.to_s] = i; i += 1; end;'
+  10: 'tmp = {}; i = 0; while i < 10; tmp[i.to_s] = i; i += 1; end;'

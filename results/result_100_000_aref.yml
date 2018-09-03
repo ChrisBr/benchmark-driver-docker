@@ -2,7 +2,7 @@
 type: recorded
 job_warmup_context_result:
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '10'
+    name: '10000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -20,9 +20,9 @@ job_warmup_context_result:
             unit: i/s
             larger_better: true
             worse_word: slower
-          : 571838.197342033
-        duration: 1.015212
-        loop_count: 580537
+          : 605.5812228827716
+        duration: 1.0733489999999999
+        loop_count: 650
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -32,9 +32,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 702472.2195287871
-        duration: 2.4421093849814497
-        loop_count: 1715514
+          *3: 718.8404535399867
+        duration: 2.5262907659925986
+        loop_count: 1816
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -47,12 +47,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 766994.3812570394
-        duration: 2.23667088302318
-        loop_count: 1715514
+          *3: 534.1305398696068
+        duration: 3.399917931004893
+        loop_count: 1816
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '20'
+    name: '20000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -61,9 +61,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 269887.7018720231
-        duration: 1.0317180000000001
-        loop_count: 278448
+          *3: 281.9408100511899
+        duration: 1.021491
+        loop_count: 288
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -73,9 +73,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 348024.52069922996
-        duration: 2.32645389001118
-        loop_count: 809663
+          *3: 334.7712012650058
+        duration: 2.5241119809797965
+        loop_count: 845
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -84,12 +84,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 356104.84926981886
-        duration: 2.2736646289995406
-        loop_count: 809663
+          *3: 199.80903217556195
+        duration: 4.229038050980307
+        loop_count: 845
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '30'
+    name: '30000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -98,9 +98,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 187940.50404161995
-        duration: 1.014321
-        loop_count: 190632
+          *3: 182.91722010851214
+        duration: 1.066056
+        loop_count: 195
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -110,9 +110,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 214336.9938835133
-        duration: 2.6305351670016535
-        loop_count: 563821
+          *3: 200.22161002744332
+        duration: 2.7369673030043487
+        loop_count: 548
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -121,12 +121,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 229374.61884246333
-        duration: 2.4580792890046723
-        loop_count: 563821
+          *3: 109.68394318398077
+        duration: 4.996173405990703
+        loop_count: 548
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '40'
+    name: '40000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -135,9 +135,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 148149.94838014763
-        duration: 1.028674
-        loop_count: 152398
+          *3: 118.14744801512286
+        duration: 1.0156800000000001
+        loop_count: 120
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -147,9 +147,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 161557.5943284787
-        duration: 2.751025117991958
-        loop_count: 444449
+          *3: 152.66052118390638
+        duration: 2.3188706369837746
+        loop_count: 354
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -158,12 +158,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 183186.38582019572
-        duration: 2.426211958983913
-        loop_count: 444449
+          *3: 79.954902019941
+        duration: 4.427495889016427
+        loop_count: 354
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '50'
+    name: '50000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -172,9 +172,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 110250.57304779108
-        duration: 1.0204209999999998
-        loop_count: 112502
+          *3: 107.02330910338357
+        duration: 1.046501
+        loop_count: 112
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -184,9 +184,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 128647.92786213387
-        duration: 2.5709780600154772
-        loop_count: 330751
+          *3: 116.14388894132964
+        duration: 2.7638130850100424
+        loop_count: 321
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -195,12 +195,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 124206.91831642004
-        duration: 2.662903198011918
-        loop_count: 330751
+          *3: 64.40714049968861
+        duration: 4.983919446036452
+        loop_count: 321
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '60'
+    name: '60000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -209,9 +209,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 98615.84989519736
-        duration: 1.006177
-        loop_count: 99225
+          *3: 82.4989319334705
+        duration: 1.018195
+        loop_count: 84
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -221,9 +221,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 123083.45258764774
-        duration: 2.403629356995225
-        loop_count: 295847
+          *3: 93.25447549628852
+        duration: 2.6486664440017194
+        loop_count: 247
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -232,12 +232,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 100638.44503407774
-        duration: 2.939701620984124
-        loop_count: 295847
+          *3: 52.899915294804565
+        duration: 4.669194622023497
+        loop_count: 247
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '70'
+    name: '70000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -246,9 +246,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 67085.66853482786
-        duration: 0.9992000000000002
-        loop_count: 67032
+          *3: 68.26191511728372
+        duration: 1.025462
+        loop_count: 70
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -258,9 +258,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 73703.71542003042
-        duration: 2.730622178991325
-        loop_count: 201257
+          *3: 80.46402720932691
+        duration: 2.5352944300102536
+        loop_count: 204
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -269,12 +269,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 62054.35746633425
-        duration: 3.2432371910254005
-        loop_count: 201257
+          *3: 45.11849457290497
+        duration: 4.521427453000797
+        loop_count: 204
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '80'
+    name: '80000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -283,9 +283,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 67652.48787223324
-        duration: 1.034197
-        loop_count: 69966
+          *3: 49.02704878851335
+        duration: 1.0606389999999999
+        loop_count: 52
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -295,9 +295,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 56476.97140450099
-        duration: 3.5936240020091645
-        loop_count: 202957
+          *3: 66.51442552382046
+        duration: 2.210046900989255
+        loop_count: 147
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -306,12 +306,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 63558.791228226546
-        duration: 3.1932168009807356
-        loop_count: 202957
+          *3: 40.01783166279525
+        duration: 3.6733624459884595
+        loop_count: 147
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '90'
+    name: '90000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -320,9 +320,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 55296.15361132548
-        duration: 0.9990929999999999
-        loop_count: 55246
+          *3: 51.667622186474404
+        duration: 1.0064330000000001
+        loop_count: 52
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -332,9 +332,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 70391.76215961832
-        duration: 2.3566393979999702
-        loop_count: 165888
+          *3: 62.56591927573404
+        duration: 2.477387079008622
+        loop_count: 155
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -343,12 +343,12 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 66650.86922774815
-        duration: 2.4889097760024015
-        loop_count: 165888
+          *3: 35.943862418199686
+        duration: 4.312280027021188
+        loop_count: 155
         environment: {}
   ? !ruby/struct:BenchmarkDriver::Job
-    name: '100'
+    name: '100000'
   : true:
       ? !ruby/struct:BenchmarkDriver::Context
         name: bin/jruby
@@ -357,9 +357,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 54346.2450219956
-        duration: 1.017476
-        loop_count: 55296
+          *3: 55.15665474888948
+        duration: 1.01529
+        loop_count: 56
         environment: {}
     false:
       ? !ruby/struct:BenchmarkDriver::Context
@@ -369,9 +369,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 60100.936617673884
-        duration: 2.7127364260086324
-        loop_count: 163038
+          *3: 49.99317547677302
+        duration: 3.300450480019208
+        loop_count: 165
         environment: {}
       ? !ruby/struct:BenchmarkDriver::Context
         name: jruby-9.2.0.0
@@ -380,9 +380,9 @@ job_warmup_context_result:
         prelude: ''
       : !ruby/struct:BenchmarkDriver::Result
         values:
-          *3: 61833.38817566724
-        duration: 2.6367308150220197
-        loop_count: 163038
+          *3: 32.24575725931278
+        duration: 5.116952245007269
+        loop_count: 165
         environment: {}
 metrics:
 - *3

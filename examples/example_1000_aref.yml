@@ -1,0 +1,15 @@
+prelude: |
+  tmp = {}
+  i = 0
+  while i < 1000; tmp[i.to_s] = i; i += 1; end;
+benchmark:
+  100: 'i = 0; while i < 1000; tmp[i.to_s]; i += 1; end;'
+  200: 'i = 0; while i < 200; tmp[i.to_s]; i += 1; end;'
+  300: 'i = 0; while i < 300; tmp[i.to_s]; i += 1; end;'
+  400: 'i = 0; while i < 400; tmp[i.to_s]; i += 1; end;'
+  500: 'i = 0; while i < 500; tmp[i.to_s]; i += 1; end;'
+  600: 'i = 0; while i < 600; tmp[i.to_s]; i += 1; end;'
+  700: 'i = 0; while i < 700; tmp[i.to_s]; i += 1; end;'
+  800: 'i = 0; while i < 800; tmp[i.to_s]; i += 1; end;'
+  900: 'i = 0; while i < 900; tmp[i.to_s]; i += 1; end;'
+  1000: 'i = 0; while i < 1000; tmp[i.to_s]; i += 1; end;'

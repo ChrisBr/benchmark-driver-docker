@@ -1,11 +1,11 @@
 #!/bin/bash
-#source ~/.bash_profile 
 
-for filename in results/*.yml; do
+cd results
+for filename in *.yml; do
   echo "$filename"
-  benchmark-driver.ruby2.4 "$filename" -o markdown > "$filename".md
-  benchmark-driver.ruby2.4 "$filename" > "$filename".txt
+  benchmark-driver.ruby2.4 "$filename" -o markdown > ../output/"$filename".md
+  benchmark-driver.ruby2.4 "$filename" > ../output/"$filename".txt
   benchmark-driver.ruby2.4 "$filename" -o gruff
-  mv graph.png "$filename"-graph.png
+  mv graph.png ../output/"$filename"-graph.png
 done
 

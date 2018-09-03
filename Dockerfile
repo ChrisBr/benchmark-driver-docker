@@ -9,6 +9,7 @@ RUN zypper -n install --no-recommends --replacefiles \
 
 RUN for i in ruby gem irb; do ln -s /usr/bin/$i.ruby2.4 /usr/local/bin/$i; done
 RUN gem install rmagick benchmark_driver-output-gruff benchmark-driver
+RUN gem update benchmark_driver
 
 # Add our user
 RUN useradd -m benchmark
@@ -18,6 +19,6 @@ USER benchmark
 
 RUN mkdir -p home/benchmark/driver
 WORKDIR /home/benchmark/driver
-ADD runner.rb /usr/lib64/ruby/gems/2.4.0/gems/benchmark_driver-0.14.8/lib/benchmark_driver/runner.rb
+
 
 CMD ["bash", "-l"]

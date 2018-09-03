@@ -1,0 +1,54 @@
+Calculating -------------------------------------
+                      bin/jruby  jruby-9.2.0.0 
+                 100    67.351k        69.815k i/s -    185.294k times in 2.751166s 2.654054s
+                 200    38.580k        34.552k i/s -     87.840k times in 2.276829s 2.542246s
+                 300    28.583k        22.266k i/s -     59.145k times in 2.069231s 2.656277s
+                 400    18.813k        16.425k i/s -     44.611k times in 2.371315s 2.716047s
+                 500    15.272k        12.408k i/s -     34.855k times in 2.282227s 2.809110s
+                 600    11.078k         9.851k i/s -     27.415k times in 2.474775s 2.782940s
+                 700    10.319k         8.856k i/s -     23.686k times in 2.295369s 2.674535s
+                 800     8.825k         7.041k i/s -     21.007k times in 2.380365s 2.983316s
+                 900     7.658k         6.358k i/s -     19.537k times in 2.551354s 3.072902s
+                1000     7.482k         5.789k i/s -     18.070k times in 2.415117s 3.121647s
+
+Comparison:
+                              100
+       jruby-9.2.0.0:     69815.5 i/s 
+           bin/jruby:     67351.1 i/s - 1.04x  slower
+
+                              200
+           bin/jruby:     38580.0 i/s 
+       jruby-9.2.0.0:     34552.1 i/s - 1.12x  slower
+
+                              300
+           bin/jruby:     28583.1 i/s 
+       jruby-9.2.0.0:     22266.1 i/s - 1.28x  slower
+
+                              400
+           bin/jruby:     18812.8 i/s 
+       jruby-9.2.0.0:     16425.0 i/s - 1.15x  slower
+
+                              500
+           bin/jruby:     15272.4 i/s 
+       jruby-9.2.0.0:     12407.8 i/s - 1.23x  slower
+
+                              600
+           bin/jruby:     11077.8 i/s 
+       jruby-9.2.0.0:      9851.1 i/s - 1.12x  slower
+
+                              700
+           bin/jruby:     10319.0 i/s 
+       jruby-9.2.0.0:      8856.1 i/s - 1.17x  slower
+
+                              800
+           bin/jruby:      8825.1 i/s 
+       jruby-9.2.0.0:      7041.5 i/s - 1.25x  slower
+
+                              900
+           bin/jruby:      7657.5 i/s 
+       jruby-9.2.0.0:      6357.8 i/s - 1.20x  slower
+
+                             1000
+           bin/jruby:      7482.0 i/s 
+       jruby-9.2.0.0:      5788.6 i/s - 1.29x  slower
+
